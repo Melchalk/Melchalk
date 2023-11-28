@@ -1,6 +1,6 @@
-###Hi!
+# Some info about me
 
-I am Marina, aspiring to become a C# developer
+Hello! I am Marina, aspiring to become a C# developer
 
 ```c#
 namespace Life;
