@@ -15,6 +15,6 @@ public class Mel
         "EF Core",
         "OOP",
         "N-Unit",
-      }
+      };
 }
 ```
