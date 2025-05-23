@@ -9,9 +9,9 @@ public static class Mel
 {
     public static string Name { get; } = "Marina Melnikova";
     public static DateTime BirthDay { get; } = new(2004, 12, 14);
-    public static string Status { get; set; } = "Student";
+    public static LifeStatus Status { get; private set; } = LifeStatus.Student | LifeStatus.Working;
 
-    public static List<string> Skills { get; set; } = new()
+    public static List<string> Skills { get; private set; } = new()
    {
       ".Net",
       "OOP",
